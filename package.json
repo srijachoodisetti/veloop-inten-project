@@ -1,4 +1,10 @@
 {
+  "name": "veloop-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd veloop-level-up && npm install && npm run build",
+    "start": "cd veloop-level-up && npm run preview"
+  },
   "dependencies": {
     "firebase": "^13.4.0"
   }
